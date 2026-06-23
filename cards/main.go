@@ -5,5 +5,18 @@ func main() {
 
 	cards := newDeck()
 
+	//hand, remainingCards := deal(cards, 5)
+	//
+	//hand.print()
+	//remainingCards.print()
+
+	//fmt.Println(cards.toString())
+
+	//cards.saveToFile("my__cards")
+
+	//cards := newDeckFromFile("my")
+	//cards.print()
+
+	cards.shuffle()
 	cards.print()
 }
